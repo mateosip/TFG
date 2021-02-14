@@ -1,0 +1,8 @@
+#define A_SIZE				29 
+#define A_CHANNELS			8
+
+
+#define P_SIZE				14 //La imagen de salida después de aplicar la reducción por pooling es 14x14x8
+#define P_CHANNELS			8
+#define P_KERNEL_SIZE		2 //El tamaño del filtro aplicado en el pooling es de 2x2
+#define P_STRIDE			2
